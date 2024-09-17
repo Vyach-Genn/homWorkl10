@@ -8,7 +8,7 @@ public class Main {
 //        С именем firstName — для хранения имени.
 //        С именем middleName— для хранения отчества.
 //        С именем lastName— для хранения фамилии.
-//        С именем fullName— для хранения Ф. И. О. сотрудника в формате «Фамилия Имя Отчество». Ivanov Ivan Ivanovich.
+//        С именем fullName— для хранения Ф. И. О. сотрудника в формате «Фамилия Имя Отчество».
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
@@ -32,11 +32,10 @@ public class Main {
     }
 
     private static void Task3() {
-        String fullName;
         System.out.println("Task 3");
         // fullName и данные в ней — «Иванов Семён Семёнович».
 
-        fullName = "Иванов Семён Семёнович";
+        String fullName = "Иванов Семён Семёнович";
         String replaceFullName = fullName.replace("ё", "е");
         System.out.println("Данные Ф. И. О. сотрудника — " + replaceFullName);
     }
